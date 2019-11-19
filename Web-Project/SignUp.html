@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="homecss.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+    <style>
+          body   {
+  background-image: url('fee.jpg');
+ background-repeat: no-repeat;
+ background-size: 200% 1280%;
+		 }
+			 
+#navbar {
+  overflow: hidden;
+}
+
+/* Navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: white;
+  font-size:20px;
+  padding-right: 80px;
+}
+ 
+		.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  margin-top: 330px;  
+  left: 30%;
+  font-size:20px;
+  color:black;
+  transform: translate(-20%, -50%);
+}
+		   
+    </style>
+</head>
+<body>
+	<header>
+		<img src="RealEstate.png" alt="mail2" id="logo" style="height:70px;width:300px">
+		<div id="navbar"><b>
+   <a href="#signup"> About Us </a>
+   <a href="#signup"> Log in </a>
+  <a href="#signup"> Home </a>
+ 
+
+
+</div></b>
+	</header>
+	<body>
+<div class="container">
+	  <div class="center">
+
+	<div class="section" id="signup" style = "float: right; width:100%;">
+		<section><b>
+		<br><br><br>
+			<i><h1 style = "float: left;">Sign Up</h1></i>
+			 <br><br><br><br>
+				<div>
+				<form action="home.php" name="SignUp" method="post">
+
+					<span id="star">*</span>First Name : <input type="text" name= "Firstname" id="fname" required><br><br>
+					<span id="star">*</span>Last Name : <input type="text" name="Lastname" required><br><br>
+					<span id="star">*</span>E-mail : <input type="text" name="username" required><br><br>
+					<span id="star">*</span>Password : <input type="password" name = "password" required><br><br>
+					<span id="star">*</span>Confirm password : <input type = "password" name = "cpassword" required><br><br>
+					<span id="star">*</span>Birth Date :
+						<input type = "date" name = "dob" id = "dob" min = "1960-1-1" max = "2010-12-30" >
+						<br><br>
+					<span id="star">*</span>Gender : 
+					<select required name = "gender">
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+					</select><br><br>
+					<span id="star">*</span>Mobile Number <input type="number" name="number" maxlength="11" required><br><br><br>
+					<input type="submit" value="Register" onclick="validate()" >
+					
+				</form>
+			</div>
+		</b></section>
+	</div>
+	</div>
+</div>
+</body>
+<script>
+		function validate(){
+			var password = document.forms["SignUp"]["password"].value;
+			var cpassword = document.forms["SignUp"]["cpassword"].value;
+			if (password != cpassword){
+				alert("Password & Confirm Password Don't Match");
+			}
+		}
+    </script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Admin</title>
+<link rel="stylesheet" type="text/css" href="homecss.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+  body   {
+  background-color: #BDBDBD;
+		 }
+ .center {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-20%, -50%);
+		}
+
+body {
+  background-image: url('a1.jpg');
+  display:40px;
+	 }
+h1{
+margin:100px 220px ;
+color:black;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 130%;
+  width: 200px;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 34px;
+  
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 13px; 
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  text-align: left;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  background-color: #f1f1f1;
+}
+
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: lightblue;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+}
+
+</style>
+<header> 
+		<img src="RealEstate.png" alt="logo" id="logo" style="height:70px;width:300px">
+	</header>
+</head>
+<body>
+<div class ="center">
+<h1><i> Welcome to Home page </i></h1>
+<input type="text" name="text" style="height:70px;width:300px " >
+		<input type="submit" value="     Done     " >
+</div>
+<div class="sidenav">
+   <a href="#">Home</a>
+  <a href="#">Post</a>
+  <a href="#">Media</a>
+  <a href="#">Pages</a>
+  
+  <button class="dropdown-btn">Add New 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+  <a href="#">New Property</a>
+  <a href="#">Property type</a>
+  <a href="#">Offer type</a>
+  <a href="#">Neighboor </a>
+  <a href="#">City</a>
+  <a href="#">Street</a>
+  <a href="#">Zip code</a>
+  <a href="#">Features </a>
+  </div>
+  
+  <a href="#">Comments</a>
+  <a href="#">Appearance</a>
+  <a href="#">Users</a>
+  <a href="#">Tools</a>
+  <a href="#">Settings</a>
+  <a href="#">LogOut</a>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</body>
+</html> 
