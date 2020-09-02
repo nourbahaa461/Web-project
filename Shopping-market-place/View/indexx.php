@@ -409,9 +409,9 @@
 <div class="footer-subscribe"> 
 <h3><font color="orange">Follow Us</font> </h3>
 <ul>
-<li><a href="https://www.facebook.com/TABLETENNISAboAli"><span class="fab fa-facebook-f"></span></a></li>
+<li><a href="https://www.facebook.com/search/top?q=shopping%20online"><span class="fab fa-facebook-f"></span></a></li>
 <!-- <li><a href="#"><span class="fab fa-twitter"></span></a></li> -->
-<li><a href="https://www.facebook.com/search/top?q=shopping%20online"><span class="fab fa-instagram"></span></a></li>
+<li><a href="https://www.instagram.com/shoppal.eg/"><span class="fab fa-instagram"></span></a></li>
 <!-- <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li> -->
 </ul>
 </div>
