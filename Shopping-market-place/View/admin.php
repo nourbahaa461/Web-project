@@ -304,9 +304,9 @@ if(!isset($_SESSION["type"]) || $_SESSION["type"] != true){
         <div class="flex container">
             <img src="images/sn.jpg" />
             <div>
-                <h2>We Are the on of the Best sports wear </h2>
+                <h2>We Are the on of the Best quality wear. </h2>
                 <ul>
-                    <li>We get an original sport wear</li>
+                    <li>We get an original quality wear</li>
                     <li>People really like Us.</li>
 <li> You could see people feedback. </li>
                    
@@ -317,33 +317,34 @@ if(!isset($_SESSION["type"]) || $_SESSION["type"] != true){
     
 <!-- section videos -->
 
-    <section id="properties">
-        <div class="container">
-            <h2><u> Videos </u></h2>
-            <div class="flex">
-                <div>
-                    <h4> <font color="black">Table Tennis At Home</font></h4>
-                    <video width="350" controls >
-                        <source src="videos/v1.mp4" type="video/mp4">
-                    </video>
-                </div>
+<section id="properties ">
+      
+      <div class="container" >
+      <h2><u> Videos </u></h2><br>
+          <div class="flex">
+              <div>
+                  <h4> <font color="black">BOOM!! </font></h4>
+                  <video width="350" controls >
+                      <source src="videos/v1.mp4" type="video/mp4">
+                  </video>
+              </div>
 
-                <div>
-                    <h4> <font color="black">Top 5 Unique serves in Table-Tennis</font></h4>
-                    <video width="350" controls >
-                        <source src="videos/v2.mp4" type="video/mp4">
-                    </video>
-                </div>
+              <div>
+                  <h4> <font color="black">Have your own style</font></h4>
+                  <video width="350" controls >
+                      <source src="videos/v2.mp4" type="video/mp4">
+                  </video>
+              </div>
 
-                <div>
-                    <h4> <font color="black">Timo boll VS KUKA robot</font></h4>
-                    <video width="350" controls >
-                        <source src="videos/v3.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-        </div>
-    </section>
+              <div>
+                  <h4> <font color="black">STEPS</font></h4>
+                  <video width="350" controls >
+                      <source src="videos/v3.mp4" type="video/mp4">
+                  </video>
+              </div>
+          </div>
+      </div>
+  </section>
 
 
 </body>
