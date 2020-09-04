@@ -349,48 +349,7 @@ $username_err = '<p class="errText">User must be bigger that 5 chars and contain
 		</section>	
 		
     
-<!-- Footer -->
-    
-<footer>
-    <div id="footer-subscribe">
-        <div class="container">
-            <h2>How It Works</h2>
-            <div class="flex">
-                <div>
-                    <span class="fas fa-home"></span>
-                    <h4>Find your perfect wear.</h4>
-                    <p><font color="white">We will try our best to satisfy.</font></p>
-                </div>
 
-                <div>
-                    <span class="fas fa-dollar-sign"></span>
-                    <h4>Payment option.</h4>
-                    <p><font color="white">You're free to buy either cash or credit.</font></p>
-                </div>
-
-                <div>
-                    <span class="fas fa-chart-line"></span>
-                    <h4>FeedBack.</h4>
-                    <p><font color="white">You're welcome to leave your experience with us.</font></p>
-                </div>
-            </div>
-        </div>
-    <div class="flex container">
-					<div class="footer-about">
-                        <h3><font color="orange">About Stated</font> </h3>
-						<p><font color="white">Since 2010.</font></p>
-					</div>
-<div class="footer-subscribe"> 
-<h3><font color="orange">Follow Us</font> </h3>
-<ul>
-<li><a href="https://www.facebook.com/search/top?q=shopping%20online"><span class="fab fa-facebook-f"></span></a></li>
-<!-- <li><a href="#"><span class="fab fa-twitter"></span></a></li> -->
-<li><a href="https://www.instagram.com/shoppal.eg/"><span class="fab fa-instagram"></span></a></li>
-<!-- <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li> -->
-</ul>
-</div>
-</div>
-</footer>
 	
 <!-- Java Script -->
     
@@ -472,4 +431,7 @@ for (i = 0; i < dropdown.length; i++) {
     
 </body>
     
+    <!-- Footer --> 
+<?php require_once("Footer.php") ?>
+
 </html>
