@@ -28,6 +28,7 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -248,7 +249,6 @@ header ul.is-sticky li a.active {
 }
 
 #properties .container:before {
-    content: "/";
     position: absolute;
     right: 80px;
     top: 18px;
