@@ -264,7 +264,7 @@
         
         <header>
             <div class="flex container">
-                <a id="logo" href="#">Welcome to our website <br> hope you like it</a>
+                <a id="logo" href="#">Welcome to our website </a>
                 <nav>
                     <button id="nav-toggle" class="hamburger-menu">
                         <span class="strip"></span>
@@ -326,43 +326,45 @@
     
 <!-- section Stay At Home -->
     
-    <section id="the-best">
+<section id="the-best">
         <div class="flex container">
-            <img src="images/sn.jpg" />
+            <img src="images/sn.jpg" >
             <div>
-                <h2>We Are the on of the Best sports wear </h2>
+                <h2>We Are the on of the Best quality wear. </h2>
                 <ul>
-                    <li>We get an original sport wear</li>
+                    <li>We get an original quality wear.</li>
                     <li>People really like Us.</li>
-<li> You could see people feedback. </li>
+                    <li> You could see people feedback. </li>
                    
                 </ul>
             </div>
         </div>
     </section>
-    
+
+
+
 <!-- section videos -->
 
-    <section id="properties">
+<section id="properties">
         <div class="container">
-            <h2><u> Videos </u></h2>
+            <h2><u> Videos </u></h2><br>
             <div class="flex">
                 <div>
-                    <h4> <font color="black">Welcome</font></h4>
+                    <h4> <font color="black">BOOM!! </font></h4>
                     <video width="350" controls >
                         <source src="videos/v1.mp4" type="video/mp4">
                     </video>
                 </div>
 
                 <div>
-                    <h4> <font color="black">To our</font></h4>
+                    <h4> <font color="black">Have your own style</font></h4>
                     <video width="350" controls >
                         <source src="videos/v2.mp4" type="video/mp4">
                     </video>
                 </div>
 
                 <div>
-                    <h4> <font color="black">web page</font></h4>
+                    <h4> <font color="black">STEPS</font></h4>
                     <video width="350" controls >
                         <source src="videos/v3.mp4" type="video/mp4">
                     </video>
@@ -370,53 +372,9 @@
             </div>
         </div>
     </section>
-    
-        </div>
 
-</section>
-    
-<!-- Footer -->
-    
-<footer>
-    <div id="footer-subscribe">
-        <div class="container">
-            <h2>How It Works</h2>
-            <div class="flex">
-                <div>
-                    <span class="fas fa-home"></span>
-                    <h4>Find your perfect wear.</h4>
-                    <p><font color="white">We will try our best to satisfy.</font></p>
-                </div>
 
-                <div>
-                    <span class="fas fa-dollar-sign"></span>
-                    <h4>Payment option.</h4>
-                    <p><font color="white">You're free to buy either cash or credit.</font></p>
-                </div>
 
-                <div>
-                    <span class="fas fa-chart-line"></span>
-                    <h4>FeedBack.</h4>
-                    <p><font color="white">You're welcome to leave your experience with us.</font></p>
-                </div>
-            </div>
-        </div>
-    <div class="flex container">
-					<div class="footer-about">
-                        <h3><font color="orange">About Stated</font> </h3>
-						<p><font color="white">Since 2010.</font></p>
-					</div>
-<div class="footer-subscribe"> 
-<h3><font color="orange">Follow Us</font> </h3>
-<ul>
-<li><a href="https://www.facebook.com/search/top?q=shopping%20online"><span class="fab fa-facebook-f"></span></a></li>
-<!-- <li><a href="#"><span class="fab fa-twitter"></span></a></li> -->
-<li><a href="https://www.instagram.com/shoppal.eg/"><span class="fab fa-instagram"></span></a></li>
-<!-- <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li> -->
-</ul>
-</div>
-</div>
-</footer>
 
 <!-- Java Script -->
     
@@ -526,5 +484,7 @@ for (i = 0; i < dropdown.length; i++) {
 </script>
     
 </body>
-    
+
+  <!-- Footer -->
+  <?php require_once("Footer.php") ?>  
 </html>
