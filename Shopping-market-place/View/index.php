@@ -16,7 +16,7 @@ if(!isset($_SESSION["username"]) || $_SESSION["username"] != true){
         <header>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <div class="flex container">
-                <a id="logo" href="#">Welcome to our website <br> hope you like it</a>
+                <a id="logo" href="#">Welcome to our website </a>
                 <nav>
                     <button id="nav-toggle" class="hamburger-menu">
                         <span class="strip"></span>
@@ -355,43 +355,44 @@ button:hover, a:hover {
     
 <!-- section Stay At Home -->
     
-    <section id="the-best">
+<section id="the-best">
         <div class="flex container">
-            <img src="images/sn.jpg" />
+            <img src="images/sn.jpg" >
             <div>
-                <h2>We Are the on of the Best sports wear </h2>
+                <h2>We Are the on of the Best quality wear. </h2>
                 <ul>
-                    <li>We get an original sport wear</li>
+                    <li>We get an original quality wear</li>
                     <li>People really like Us.</li>
-<li> You could see people feedback. </li>
+                    <li> You could see people feedback. </li>
                    
                 </ul>
             </div>
         </div>
     </section>
-    
 <!-- section videos -->
 
-    <section id="properties">
-        <div class="container">
-            <h2><u> Videos </u></h2>
+
+<section id="properties ">
+      
+        <div class="container" >
+        <h2><u> Videos </u></h2><br>
             <div class="flex">
                 <div>
-                    <h4> <font color="black">Welcome</font></h4>
+                    <h4> <font color="black">BOOM!! </font></h4>
                     <video width="350" controls >
                         <source src="videos/v1.mp4" type="video/mp4">
                     </video>
                 </div>
 
                 <div>
-                    <h4> <font color="black">To our</font></h4>
+                    <h4> <font color="black">Have your own style</font></h4>
                     <video width="350" controls >
                         <source src="videos/v2.mp4" type="video/mp4">
                     </video>
                 </div>
 
                 <div>
-                    <h4> <font color="black">web page</font></h4>
+                    <h4> <font color="black">STEPS</font></h4>
                     <video width="350" controls >
                         <source src="videos/v3.mp4" type="video/mp4">
                     </video>
