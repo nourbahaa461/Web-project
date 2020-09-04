@@ -11,10 +11,10 @@
   <meta charset="UTF-8">
   <title>About us</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="images/p.jpg" type="image/x-icon"> <!-- logo f el title -->
+
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link href="style.css" type="text/css" rel="Stylesheet" />
-
+  <link rel="icon" href="images/p.jpg" type="image/x-icon"> <!-- logo f el title -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -147,114 +147,7 @@
 }
     
 </style>
-    
-<body>
-    
-    <div id="header-hero-container">
-      <header> 
-        <div class="flex container">
-            <a id="logo" href="#">Market</a>
-            <nav>
-                <button id="nav-toggle" class="hamburger-menu">
-                    <span class="strip"></span>
-                    <span class="strip"></span>
-                    <span class="strip"></span>
-                </button>
-                <ul id="nav-menu">
-                    <li><a href="indexx.php"><img src="images/nn.png" style="width:60px;height:60px;"></a></li>
-                    <li><a href="register.php">Register</a></li>
-				            <li><a href="login.php">Login</a></li>
-
-							
-<!-- Shop menu -->							
-							
-							<div id="mySidepanel" class="sidepanel">
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                
-                                <!-- Table Tennis -->
-                                
-<button class="dropdown-btn">Shopping
-    <i class="fa fa-caret-down"></i>
-</button>
-  <div class="dropdown-container">
-   
-    <li><a href="Style.php">style</a></li>
-	<li><a href="Shoes.php">Shoes & Socks</a></li>
-	<li><a href="Bags.php">Bags</a></li>
-	<li><a href="Accessories.php">Accessories</a></li>
-  </div>
- 
- 
-                  </div>
-
-                  <button class="openbtn" onclick="openNav()">&#9776; Shop</button>
-                    <li id="close-flyout"><span class="fas fa-times"></span></li>
-                </ul>
-              </nav>
-          </div>
-        </header>
-  <section id="hero">
-      <div class="fade"></div>
-      <div class="hero-text">
-          <details>
-              <summary><h3> ABOUT US </h3></summary>
-			  
-              <p> - Here / you will find every thing about <br> table tennis specially and all sports wear<br> in general .
-and we have more than these , <br>its local matches.
-			  </p>
-            </details>
-            <details>
-                <summary><h3> OUR QUALITY </h3></summary>
-                <p> We have the best quality with perfect prices <br> Anyone can search for <br> </p>
-            </details>
-       </div>
-      </section>
-  </div>
-    
-<!-- Footer -->
-    
-  <footer>
-    <div id="footer-subscribe">
-        <div class="container">
-            <h2>How It Works</h2>
-            <div class="flex">
-                <div>
-                    <span class="fas fa-home"></span>
-                    <h4>Find your perfect wear.</h4>
-                    <p><font color="white">We will try our best to satisfy.</font></p>
-                </div>
-
-                <div>
-                    <span class="fas fa-dollar-sign"></span>
-                    <h4>Payment option.</h4>
-                    <p><font color="white">You're free to buy either cash or credit.</font></p>
-                </div>
-
-                <div>
-                    <span class="fas fa-chart-line"></span>
-                    <h4>FeedBack.</h4>
-                    <p><font color="white">You're welcome to leave your experience with us.</font></p>
-                </div>
-            </div>
-        </div>
-    <div class="flex container">
-					<div class="footer-about">
-                        <h3><font color="orange">About Stated</font> </h3>
-						<p><font color="white">Since 2010.</font></p>
-					</div>
-<div class="footer-subscribe"> 
-<h3><font color="orange">Follow Us</font> </h3>
-<ul>
-<li><a href="https://www.facebook.com/search/top?q=shopping%20online"><span class="fab fa-facebook-f"></span></a></li>
-<!-- <li><a href="#"><span class="fab fa-twitter"></span></a></li> -->
-<li><a href="https://www.instagram.com/shoppal.eg/"><span class="fab fa-instagram"></span></a></li>
-<!-- <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li> -->
-</ul>
-</div>
-</div>
-</footer>
-      
-<!-- Java Script -->  
+    <!-- Java Script -->  
       
     <script>
         $(function () {
@@ -325,6 +218,114 @@ for (i = 0; i < dropdown.length; i++) {
   });
 }
 </script>
+
+<body>
+    
+    <div id="header-hero-container">
+      <header> 
+        <div class="flex container">
+            <a id="logo" href="#">Market</a>
+            <nav>
+                <button id="nav-toggle" class="hamburger-menu">
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="indexx.php"><img src="images/nn.png" style="width:60px;height:60px;"></a></li>
+                    <li><a href="register.php">Register</a></li>
+				            <li><a href="login.php">Login</a></li>
+
+							
+<!-- Shop menu -->							
+							
+							<div id="mySidepanel" class="sidepanel">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                
+
+                                
+<button class="dropdown-btn">Shopping
+    <i class="fa fa-caret-down"></i>
+</button>
+  <div class="dropdown-container">
+   
+    <li><a href="Style.php">style</a></li>
+	<li><a href="Shoes.php">Shoes & Socks</a></li>
+	<li><a href="Bags.php">Bags</a></li>
+	<li><a href="Accessories.php">Accessories</a></li>
+  </div>
+ 
+ 
+                  </div>
+
+                  <button class="openbtn" onclick="openNav()">&#9776; Shop</button>
+                    <li id="close-flyout"><span class="fas fa-times"></span></li>
+                </ul>
+              </nav>
+          </div>
+        </header>
+  <section id="hero">
+      <div class="fade"></div>
+      <div class="hero-text">
+          <details>
+              <summary><h3> ABOUT US </h3></summary>
+			  
+              <p> - Here / you will find every thing for <br> shopping wear<br> In general .
+and we have more than these.
+			  </p>
+            </details>
+            <details>
+                <summary><h3> OUR QUALITY </h3></summary>
+                <p> We have the best quality with perfect prices <br> Anyone can search for <br> </p>
+            </details>
+       </div>
+      </section>
+  </div>
+    
+<!-- Footer -->
+    
+  <footer>
+    <div id="footer-subscribe">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="flex">
+                <div>
+                    <span class="fas fa-home"></span>
+                    <h4>Find your perfect wear.</h4>
+                    <p><font color="white">We will try our best to satisfy.</font></p>
+                </div>
+
+                <div>
+                    <span class="fas fa-dollar-sign"></span>
+                    <h4>Payment option.</h4>
+                    <p><font color="white">You're free to buy either cash or credit.</font></p>
+                </div>
+
+                <div>
+                    <span class="fas fa-chart-line"></span>
+                    <h4>FeedBack.</h4>
+                    <p><font color="white">You're welcome to leave your experience with us.</font></p>
+                </div>
+            </div>
+        </div>
+  <div class="flex container">
+            <div class="footer-about">
+                          <h3><font color="orange">About Stated</font> </h3>
+              <p><font color="white">Since 2010.</font></p>
+            </div>
+    <div class="footer-subscribe"> 
+        <h3><font color="orange">Follow Us</font> </h3>
+        <ul>
+        <li><a href="https://www.facebook.com/search/top?q=shopping%20online"><span class="fab fa-facebook-f"></span></a></li>
+        <!-- <li><a href="#"><span class="fab fa-twitter"></span></a></li> -->
+        <li><a href="https://www.instagram.com/shoppal.eg/"><span class="fab fa-instagram"></span></a></li>
+        <!-- <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li> -->
+        </ul>
+        </div>
+    </div>
+  </footer>
+      
+
 </body>
        
 </html> 
